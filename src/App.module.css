@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(250, 250,250);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 100px;
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
+
+h3{
+  color:#455A64 !important;
+  font-size: 1.5rem;
+  padding: 10px;
+  font-family: Roboto;
+  text-align: center;
+}
+
+.footer{
+  margin-top: 50px;
+  width: 100%;
+  background-color: #ECEFF1 !important;
+  justify-content: center;
+  display: flex;
+
+  Button{
+    height: 30px;
+  }
+}
